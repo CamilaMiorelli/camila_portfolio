@@ -1,14 +1,21 @@
 .mystack {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 .languages {
   display: flex;
   list-style-type: none;
   flex-direction: row;
+  justify-content: space-between;
     li {
       flex-wrap: wrap;
       padding: 10px;
     }
+}
+
+.stack-title {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }

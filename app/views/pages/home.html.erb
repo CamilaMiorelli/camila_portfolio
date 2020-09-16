@@ -1,9 +1,9 @@
 <div class="container">
   <div class="first-half">
     <div class="nav">
-        <a href="#" class="links">CV</a>
-        <a href="#" class="links">WORK</a>
-        <a href="#" class="links">CONTACT ME</a>
+        <%= link_to "CV", cv_path, class:"links" %>
+        <%= link_to "WORK", work_path, class:"links" %>
+        <%= link_to "CONTACT", about_path, class:"links" %>
     </div>
       <div class="header">
         <h1>Camila Miorelli</h1>
@@ -11,23 +11,25 @@
   </div>
   <div class="second-half">
     <div class="image">
-      <%= image_tag "camila_mirror.JPG", width: "400" %>
+      <%= image_tag "cami_web.jpg", width: "400" %>
     </div>
     <div class="info">
       <p>Former Museologist and Heritage Professional.</p>
       <p>Current FullStack Web Developer. </p>
+      <a href="https://github.com/CamilaMiorelli"><i class="fab fa-github-square"></i></a>
     </div>
   </div>
   <div class="mystack">
     <div class="current">
-    <h4>current stack</h4>
+      <div class="stack-title">
+        <h4>current stack</h4>
+      </div>
       <ul class="languages">
         <li><%= image_tag "rails.png", width: "150" %></li>
         <li><%= image_tag "css.png", width: "55" %></li>
         <li><%= image_tag "html.png", width: "75" %></li>
         <li><%= image_tag "javascript.png", width: "75" %></li>
         <li><%= image_tag "REALSASS.png", width: "75" %></li>
-        <li><%= image_tag "gitlogo.png", width: "75"  %></li>
         <li><%= image_tag "heroku.svg", width: "50" %></li>
         <li><%= image_tag "sql.png", width: "50"  %></li>
         <li><%= image_tag "react.png", width: "75" %></li>
