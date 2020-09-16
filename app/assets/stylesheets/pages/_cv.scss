@@ -1,0 +1,45 @@
+.cv-container {
+  display: flex;
+  // flex-direction: row;
+}
+
+.education {
+padding: 10px;
+// border: 1px solid black;
+margin-right: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.publications {
+padding: 10px;
+// border: 1px solid black;
+}
+
+.publications a {
+  text-decoration: none;
+  color: #333333;
+  &:hover {
+    color: #F24333;
+  }
+}
+
+.experience {
+padding: 10px;
+// border: 1px solid black;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 60px;
+}
+
+.btn:hover {
+    color: #F24333;
+    border: 1px dotted #F24333;
+}
