@@ -1,1 +1,32 @@
 // Specific CSS for your home-page
+body {
+background-color: #FAF5EF;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  max-width: 100%;
+  padding-top: 10vh;
+  // background-color: white;
+}
+
+.first-half {
+  margin-bottom: 20px;
+}
+
+.info {
+  margin: 20px;
+}
+
+.second-half {
+  display: flex;
+  margin-bottom: 20px;
+}
