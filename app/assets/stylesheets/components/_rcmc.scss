@@ -1,0 +1,48 @@
+.rcmc {
+  margin-bottom: 25px;
+ display: flex;
+ flex-direction: column;
+}
+
+.rcmc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+
+ul li {
+  position: initial;
+  margin: 0 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  float: right;
+}
+
+ul li .artist {
+  position: absolute;
+  width: max-content;
+  background: white;
+  padding: 15px;
+  border-radius: 30px;
+  visibility: hidden;
+}
+
+.artist a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.artist a:hover {
+  color:#F24333;
+}
+
+ul li:hover .artist {
+  visibility: visible;
+  transition: 0.5s;
+}
+
+
+li::before {
+    content: "⬛ ";
+  }
+

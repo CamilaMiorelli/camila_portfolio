@@ -4,7 +4,7 @@
       <h2>Education</h2>
     </div>
     <h5>Full Stack Development</h5><h5>2020</h5>
-    <p>Le Wagon - Amsterdam<br>(Amsterdam, NL)<br>
+    <p>Le Wagon - Amsterdam<br>(Amsterdam, NL)<br></p>
     <h5>Masters of Museology</h5><h5>2019</h5>
     <p>Amsterdam Hogeschool voor Kunsten<br>Reinwardt Academie<br>(Amsterdam, NL)<br>GPA 8.3</p>
     <h5>Bachelors of Art History</h5><h5>2016</h5>
@@ -26,10 +26,33 @@
     <div class="title">
       <h2>Experience</h2>
     </div>
-    <h5>De Appel Art Centre</h5><p>Amsterdam, NL 2019</p>
-    <p>Curatorial Programme Internship</p>
-    <h5>Research Center for Material Culture</h5><p>Leiden, NL 2018/19</p>
-    <p>Research Internship</p>
+    <div class="de-appel">
+      <div class="appel-text">
+        <h5>De Appel Art Centre</h5><p>Amsterdam, NL 2019</p>
+        <p>Curatorial Programme Internship</p>
+      </div>
+      <div class="appel-link">
+        <a href="http://deappel.nl/en/events/curious-voices"><%= image_tag "curious voices.jpg", width: "75", class:"curvoice" %></a>
+      </div>
+    </div>
+    <div class="rcmc">
+      <div class="rcmc-text">
+        <h5>Research Center for Material Culture</h5><p>Leiden, NL 2018/19</p>
+        <p>Research Internship</p>
+      </div>
+      <div class="rcmc-vc">
+          <ul class="rcmc-list">
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/504007417006217"><div class="artist">Moniek Toebosch</div></a></li>
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/515339262539699"><div class="artist">Roy Villevoye</div></a></li>
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/503900463683579"><div class="artist">Andries Botha</div></a></li>
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/503924517014507"><div class="artist">Cildo Meireles</div></a></li>
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/469356003804692"><div class="artist">Remy Jungerman</div></a></li>
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/515327535874205"><div class="artist">Ken Lum</div></a></li>
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/503976700342622"><div class="artist">Chen Zhen</div></a></li>
+            <li class="rcmc-vc-i"><a href="https://www.facebook.com/rcmaterialculture/posts/503983667008592"><div class="artist">Jens Haaning</div></a></li>
+          </ul>
+      </div>
+    </div>
     <h5>Phillip & Patricia Frost Museum of Art</h5><p>Miami, FL 2015</p>
     <p>Visitor’s Service Associate</p>
     <p>Education Assistant</p>
@@ -41,5 +64,7 @@
     <p>Docent</p>
     <h5>Volunteering</h5>
   </div>
+  <div class="home-btn">
   <%= link_to "Home", root_path, class:"btn" %>
+  </div>
 </div>
