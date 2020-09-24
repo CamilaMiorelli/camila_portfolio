@@ -5,6 +5,7 @@
 
 .curvoice {
   border-radius: 50%;
+  animation: rotation 10s infinite;
 }
 
 .curvoice:hover {
@@ -14,4 +15,13 @@
 .appel-link {
   margin-left: 25px;
   margin-top:10px;
+}
+
+@keyframes rotation {
+ from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
 }
