@@ -7,6 +7,7 @@
 padding: 10px;
 // border: 1px solid black;
 margin-right: 20px;
+flex:0.5;
 }
 
 .title {
@@ -29,6 +30,12 @@ padding: 10px;
 .experience {
 padding: 10px;
 // border: 1px solid black;
+flex:1;
+transition: 1s;
+}
+
+.experience:hover {
+  flex: 1.5;
 }
 
 .btn {
