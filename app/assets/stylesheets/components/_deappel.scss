@@ -5,7 +5,7 @@
 
 .curvoice {
   border-radius: 50%;
-  animation: rotation 10s infinite;
+  animation: rotation 10s infinite linear;
 }
 
 .curvoice:hover {
