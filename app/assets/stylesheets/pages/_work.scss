@@ -1,0 +1,57 @@
+.projects {
+// border: 1px solid black;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.projects a {
+  text-decoration: none;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✢</text></svg>") 16 0,auto;
+}
+
+.book {
+  font-family: "Oleo Script", cursive;
+  font-size: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book .book-title {
+  color: #F97068;
+}
+
+.book .borrow-title {
+    color: #F8EBD2;
+    text-shadow: 1px 1px #333333;
+}
+
+.feast {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #50514F;
+}
+
+.feast .first {
+ font-size: 60px;
+  color: #c87d41;
+  }
+
+.home-btn-work {
+  padding: 20px;
+  margin: 10px;
+  color: #333333;
+}
+
+.home-btn-work:hover {
+    color: #F24333;
+    border: 1px dotted #F24333;
+}

@@ -5,7 +5,7 @@
 }
 
 .rcmc-vc {
-  color: black;
+  color: #333333;
   font-size: 16px;
   border: none;
   max-width: 160px;
@@ -19,8 +19,8 @@
   position: relative;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-  border-radius: 20px;
+  // box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.1);
+  border-radius: 5px;
   z-index: 1;
 }
 
@@ -37,10 +37,12 @@
 
 .two-buttons {
   display: flex;
+  flex-direction: column;
 }
 
-.fa-arrow-right:before {
-  margin-left: 20px;
+.fa-arrow-right {
+  color: #F24333;
+  margin-top: 20px;
 }
 
 // ul li {

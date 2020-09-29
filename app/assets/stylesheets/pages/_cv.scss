@@ -9,6 +9,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+h5 {
+  margin-top: 10px;
+}
+
 .education {
 padding: 10px;
 grid-column-start: 1;
@@ -47,37 +51,43 @@ grid-row-start: 1;
 // border: 1px solid black;
 }
 
-.pulse {
-  animation: pulse-animation 2s infinite;
-}
-
 .home-btn {
   padding: 20px;
   position: relative;
   top: 158px;
   left: 111px;
-}
-
-@keyframes pulse-animation {
-  0% {
-    border-bottom: 0%;
-  }
-  100% {
-    border-bottom: 100%;
-  }
+  margin: 10px;
+  color: #333333;
 }
 
 .btn {
   border-bottom: 1px solid black;
-  // padding: 10px;
   height: fit-content;
   width: fit-content;
-  // margin-top: 60px;
+  padding: 5px 0;
+  margin: 5px;
   // margin-left: 80px;
-  justify-content: flex-end;
+  // justify-content: flex-end;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn:hover {
+  border-bottom: 1px solid #F24333;
 }
 
 .home-btn:hover {
     color: #F24333;
     border: 1px dotted #F24333;
+}
+
+.card-body {
+  font-size: 12px;
+}
+
+.card {
+  max-width: 400px;
+  border: none;
 }
