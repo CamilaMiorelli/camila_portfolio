@@ -18,6 +18,7 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .book .book-title {
@@ -37,13 +38,9 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #50514F;
+  flex-direction: column;
+  color: #333333;
 }
-
-.feast .first {
- font-size: 60px;
-  color: #c87d41;
-  }
 
 .home-btn-work {
   padding: 20px;
