@@ -1,8 +1,8 @@
 .projects {
 // border: 1px solid black;
 display: flex;
-align-items: center;
 flex-direction: column;
+align-items: center;
 }
 
 .projects a {
@@ -21,25 +21,18 @@ flex-direction: column;
   flex-direction: column;
 }
 
-.book .book-title {
-  color: #F97068;
-}
-
-.book .borrow-title {
-    color: #F8EBD2;
-    text-shadow: 1px 1px #333333;
-}
-
 .feast {
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   flex-direction: row;
   color: #333333;
+}
+
+.video {
+  margin-left: 50px;
 }
 
 .home-btn-work {
@@ -51,4 +44,5 @@ flex-direction: column;
 .home-btn-work:hover {
     color: #F24333;
     border: 1px dotted #F24333;
+    width: fit-content;
 }

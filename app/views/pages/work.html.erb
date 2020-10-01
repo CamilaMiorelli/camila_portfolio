@@ -1,16 +1,18 @@
   <div class="projects">
-      <%= link_to "Home", root_path, class:"home-btn-work" %>
-      <h3>Moveable Feasts</h3>
+      <h1>Moveable Feasts</h1>
       <div class="feast">
-      <a href="https://www.moveablefeasts.club/"><%= image_tag("move.png", height: '315', width: '350') %></a>
-      <br>
-      <iframe width="350" height="315" src="https://www.youtube.com/embed/4-navhgKXSU?start=1953" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <%# video_tag("https://www.youtube.com/watch?v=4-navhgKXSU&amp;feature=youtu.be", size: "350x350", poster: "camila_youtube.png") %>
+        <div>
+          <a href="https://www.moveablefeasts.club/"><%= image_tag("move.png", height: '319', width: '400') %></a>
+        </div>
+        <div class="video">
+          <iframe width="350" height="315" src="https://www.youtube.com/embed/4-navhgKXSU?start=1950" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
       <div class="book">
-        <h3>Book Borrow</h3>
-      <a href="http://bookbookborrow.herokuapp.com/"><%= image_tag("book.png", height: '250', width: '350') %></a>
+        <h1>Book Borrow</h1>
+      <a href="http://bookbookborrow.herokuapp.com/"><%= image_tag("book.png", height: '350', width: '450') %></a>
       </div>
+      <%= link_to "Home", root_path, class:"home-btn-work" %>
   </div>
 
 
