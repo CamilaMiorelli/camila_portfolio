@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'cv', to: 'pages#cv'
   get 'work', to: 'pages#work'
   get 'about', to: 'pages#about'
+  resources "contacts", only: [:new, :create]
 end
