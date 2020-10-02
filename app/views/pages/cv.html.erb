@@ -1,3 +1,10 @@
+<div>
+  <%= link_to root_path, class:"home-btn" do %>
+  <div class="home-nav">
+    <i class="fas fa-home"></i>
+  </div>
+  <% end %>
+</div>
 <div class="cv-container">
   <div class="education">
     <div class="title">
@@ -138,7 +145,13 @@
     <h5>on air - AHK</h5>
     <a href="https://issuu.com/artist-in-residence-ahk/docs/wandelkrant___insert_samengebonden/30" target="_blank"><p>The Walking Seminar by Christen Ernsten<br>“The Anthropocene”<br>2018</p></a>
       <div>
-        <%= link_to "Home", root_path, class:"home-btn" %>
+
+      </div>
+      <div class="download">
+        <%= link_to asset_path("Website_Resume_Oct_2020.pdf"), target: "_blank" do %>
+          <i class="fas fa-download"></i>
+          <h4>Download CV</h4>
+          <% end %>
       </div>
   </div>
 </div>

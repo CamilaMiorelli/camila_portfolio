@@ -29,8 +29,9 @@ h1 {
 }
 
 .info {
-  margin-left: 200px;
-  margin-top: 100px;
+  // margin-right: 150px;
+  // margin-left: 50px;
+  margin-top: 50px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -47,11 +48,17 @@ h1 {
 
 .second-half {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 80px;
 }
 
 .image {
-  margin-left: 25px;
+  // margin-left: 25px;
+}
+
+.style_image {
+  filter: grayscale(100%);
 }
 
 .fa-github-square {

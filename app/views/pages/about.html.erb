@@ -3,6 +3,8 @@
     <a href="mailto:camimiorelli@gmail.com?subject=Hello Camila!" class="mail"><i class="far fa-envelope"></i><br>Email Me</a>
     <a href="https://www.linkedin.com/in/camila-miorelli-3b7678113/" class="mail"><i class="fab fa-linkedin-in"></i><br>Linked In</a>
   <div class="contact-btn">
-    <%= link_to "Home", root_path, class:"home-btn-work contact" %>
+  <%= link_to root_path, class:"home-btn" do %>
+  <i class="fas fa-home"></i>
   </div>
+  <% end %>
 </div>
