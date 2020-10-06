@@ -1,16 +1,19 @@
-<div>
-  <%= link_to root_path, class:"home-btn" do %>
-  <div class="home-nav">
-    <i class="fas fa-home"></i>
-  </div>
-  <% end %>
+<div class="nav">
+        <%= link_to root_path, class:"home-btn" do %>
+          <div class="home-nav">
+            <i class="fas fa-home"></i>
+          </div>
+        <% end %>
+        <%= link_to "CV", cv_path, class:"links" %>
+        <%= link_to "CONTACT", about_path, class:"links" %>
+    </div>
 </div>
   <div class="projects">
       <h1>Moveable Feasts</h1>
       <p style="width:800px">As my final project at Le Wagon I created an app to pair ex-pats, recently moved people, or immigrants with hosts for dinner parties. This app acts as a new social connector for hosts and guests to create frienships in more intimate settings.</p>
       <div class="feast">
         <div>
-          <a href="https://www.moveablefeasts.club/"><%= image_tag("move.png", height: '319', width: '400') %></a>
+          <a href="https://www.moveablefeasts.club/"><%= image_tag("move.jpg", height: '319', width: '400') %></a>
         </div>
         <div class="video">
           <iframe width="350" height="315" src="https://www.youtube.com/embed/4-navhgKXSU?start=1950" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -19,7 +22,7 @@
       <div class="book">
         <h1>Book Borrow</h1>
         <p style="width:800px">We created Book Borrow for people to borrow and lend books to people in their neighborhoods; a digital library for friends.</p>
-      <a href="http://bookbookborrow.herokuapp.com/"><%= image_tag("book.png", height: '350', width: '450') %></a>
+      <a href="http://bookbookborrow.herokuapp.com/"><%= image_tag("book.jpg", height: '350', width: '450') %></a>
       </div>
   </div>
 

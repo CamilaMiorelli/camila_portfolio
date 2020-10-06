@@ -2,7 +2,7 @@
   display: grid;
   grid-template-column: 1fr 1fr 1fr;
   grid-template-row: 1fr 1fr 1fr;
-  // flex-direction: row;
+  padding: 10px;
 }
 
 h2 {
@@ -54,7 +54,7 @@ grid-row-start: 1;
 .home-btn {
   font-family: "anisette-std", "Helvetica";
   color: #F24333;
-  font-size: 40px;
+  font-size: 18px;
 }
 
 a.home-btn {
@@ -65,12 +65,12 @@ a.home-btn:hover {
   color: #333333;
 }
 
-.home-nav {
-  display: flex;
-  width: 100%;
-  margin-bottom: 10px;
-  margin: 5px;
-}
+// .home-nav {
+//   display: flex;
+//   width: 100%;
+//   margin-bottom: 10px;
+//   margin: 5px;
+// }
 
 .btn {
   border-bottom: 1px solid black;
