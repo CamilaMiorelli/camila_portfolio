@@ -117,3 +117,35 @@ a.home-btn:hover {
 .download h4 {
   float: right;
 }
+
+// @media (max-width: 990px) {
+//   /* For a screen < 960px, this CSS will be read */
+// }
+
+// @media (max-width: 800px) {
+//    For a screen < 720px, this CSS will be read
+// }
+
+@media (max-width: 600px) {
+
+.education {
+  justify-self: center;
+}
+
+.experience {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+justify-self: center;
+// border: 1px solid black;
+}
+
+.publications {
+grid-row-start: 3;
+grid-column-start: 1;
+grid-column-end: 2;
+justify-self: center;
+}
+  /* For a screen < 540px, this CSS will be read */
+}
+
