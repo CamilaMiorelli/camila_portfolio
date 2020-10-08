@@ -84,15 +84,18 @@ h1 {
    }
 }
 
-@media (max-width: 990px) {
-  /* For a screen < 960px, this CSS will be read */
-}
+// @media (max-width: 990px) {
+//   /* For a screen < 960px, this CSS will be read */
+// }
 
-@media (max-width: 800px) {
-  /* For a screen < 720px, this CSS will be read */
-}
+// @media (max-width: 800px) {
+//    For a screen < 720px, this CSS will be read
+// }
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 100px;
+  }
   /* For a screen < 540px, this CSS will be read */
 }
 
