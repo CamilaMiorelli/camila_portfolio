@@ -34,13 +34,19 @@ a.mail {
   margin-top: 100px;
 }
 
-// .contact-form {
-//   display: flex;
-//   justify-content: center;
-//   width: 800px;
+// @media (max-width: 990px) {
+//   /* For a screen < 960px, this CSS will be read */
 // }
 
-// .contact-name {
-//   text-align: center;
-//   margin-bottom: 30px;
+// @media (max-width: 800px) {
+//    For a screen < 720px, this CSS will be read
 // }
+
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .contact-div {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}

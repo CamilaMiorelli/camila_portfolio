@@ -4,6 +4,10 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: 100%;
+p {
+  width: 800px;
+  text-align: center;
+}
 }
 
 // .projects a:hover{
@@ -44,4 +48,36 @@ width: 100%;
     color: #F24333;
     border: 1px dotted #F24333;
     width: fit-content;
+}
+
+// @media (max-width: 990px) {
+//   /* For a screen < 960px, this CSS will be read */
+// }
+
+// @media (max-width: 800px) {
+//    For a screen < 720px, this CSS will be read
+// }
+
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+ .projects {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+.projects {
+  p {
+    width: 400px;
+  }
+}
+
+.feast {
+  flex-direction: column;
+  align-items: center;
+}
+
+.website-pic {
+  margin-bottom: 15px;
+}
 }
