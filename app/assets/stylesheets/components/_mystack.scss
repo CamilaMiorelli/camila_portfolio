@@ -6,6 +6,7 @@
 
 .languages {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   flex-direction: row;
   justify-content: space-between;

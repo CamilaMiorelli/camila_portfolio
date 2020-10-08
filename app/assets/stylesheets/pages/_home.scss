@@ -12,11 +12,12 @@ h1 {
 
 .container {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
 .header {
-  max-width: 100%;
+  width: auto;
   // background-color: white;
 }
 
@@ -82,4 +83,18 @@ h1 {
        animation-timing-function:ease-in-out
    }
 }
+
+@media (max-width: 990px) {
+  /* For a screen < 960px, this CSS will be read */
+}
+
+@media (max-width: 800px) {
+  /* For a screen < 720px, this CSS will be read */
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+}
+
+
 
