@@ -62,13 +62,16 @@ p {
   /* For a screen < 540px, this CSS will be read */
  .projects {
   h1 {
-    font-size: 80px;
+    font-size: 3.0rem;
   }
+  .video {
+  margin-left: 0px;
+}
 }
 
 .projects {
   p {
-    width: 400px;
+    width: 15.0rem;
   }
 }
 
